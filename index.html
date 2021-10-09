@@ -4,9 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    </style>
+    <title>My University</title>
 </head>
 <body>
-    
+<!--Header Section Start-->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="website-logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fw far fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fw fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's biggest university</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore corrupti<br> unde, asperiores dolore consequuntur
+            molestias. Reiciendis veniam cum cumque quaerat!</p>
+            <button class="hero-btn">Click here to learn more</button>
+        </div>
+    </section>
+<!--Header Section End-->
+
+<!--Course Section Start-->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores suscipit?</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Secondary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum commodi tenetur vero, alias dolores magnam aliquam! Nisi sapiente cum autem qui tempore exercitationem omnis a. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="course-col">
+                <h3>Higher Secondary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum commodi tenetur vero, alias dolores magnam aliquam! Nisi sapiente cum autem qui tempore exercitationem omnis a. Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="course-col">
+                <h3>Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum commodi tenetur vero, alias dolores magnam aliquam! Nisi sapiente cum autem qui tempore exercitationem omnis a. Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+<!-- cdn for fontawesome -->
+    <script src="https://kit.fontawesome.com/00f82771a1.js" crossorigin="anonymous">
+    </script>
+
+ <!-- JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0"
+            }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+            }
+    </script>
 </body>
 </html>
