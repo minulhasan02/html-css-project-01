@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    </style>
+    <title>My University</title>
+</head>
+
+<body>
+    <!--Header Section Start-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="website-logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fw far fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fw fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!--Header Section End-->
+
+<!-- About us page content start -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem quasi veniam veritatis doloribus accusantium aliquid ad. Repellat optio a alias magnam tempore modi neque reiciendis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, nulla! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus dolore accusantium impedit facilis earum corrupti.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+<!-- About us page content end -->
+
+<!--Footer Section Start-->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit dolorum ex <br>facilis sapiente et illum
+        in quas voluptas beatae. Magnam!</p>
+        <div class="icons">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-telegram"></i>
+            <i class="fab fa-whatsapp-square"></i>
+        </div>
+    </section>
+    <section class="copyright">
+        <p>© DoubleMH 2021 | All Rights Reserved</p>
+    </section>
+    <!--Footer Section End-->
+
+    <!-- cdn for fontawesome -->
+    <script src="https://kit.fontawesome.com/00f82771a1.js" crossorigin="anonymous">
+    </script>
+
+    <!-- JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

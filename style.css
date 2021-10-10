@@ -339,3 +339,44 @@ nav .fw{
     text-align: center;
     font-weight: 600;
 }
+
+/* about page css */
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,30,9,0.7)),url(img/background.jpg) center/cover;
+}
+.sub-header h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+}
+.about-us{
+    width: 80%;
+    margin:auto;
+    padding:50px 0 50px ;
+}
+.about-col{
+    flex-basis: 46%;
+    padding:30px 2px;
+}
+.about-col h1{
+    font-size: 2rem;
+}
+.about-col p{
+    color: #777;
+    font-size: 0.9rem;
+    margin: 10px 0;
+    line-height: 1.2rem;
+}
+.about-col img{
+    width: 100%;
+}
+.red-btn{
+    border: 2px solid #f44336;
+    color: #f44336;
+}
+.red-btn:hover{
+    color: #fff;
+}
+
