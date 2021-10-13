@@ -380,3 +380,52 @@ nav .fw{
     color: #fff;
 }
 
+/* blog-content css */
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h3{
+    margin: 30px 0;
+}
+.blog-left p{
+    color: #777;
+}
+.blog-right{
+    flex-basis: 33%;
+}
+.blog-right h3{
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.blog-right div{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    background: #f0f0f0;
+    outline:none;
+}
