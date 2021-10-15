@@ -1,8 +1,15 @@
+/********** Global css **********/
 *{
     padding:0;
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/********** header css ***********/
 .header{
     min-height: 100vh;
     width: 100%;
@@ -83,7 +90,7 @@ nav img{
 nav .fw{
     display: none;
 }
-
+/********** header responsive css **********/
 @media (max-width:760px) {
     .text-box h1{
         font-size: 1.5rem;
@@ -111,10 +118,8 @@ nav .fw{
     }
 }
 
-/* course css*/
+/********** course css ***********/
 .course{
-    width: 80%;
-    margin: auto;
     text-align: center;
     padding-top:80px;
 }
@@ -152,16 +157,16 @@ nav .fw{
 .course-col:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
 }
+
+/************ course responsive css ***********/
 @media (max-width:760px) {
     .row{
         flex-direction: column;
     }
 }
 
-/* campus css */
+/************ campus css ************/
 .campus{
-    width: 80%;
-    margin: auto;
     text-align: center;
     padding-top:80px;
 }
@@ -212,10 +217,8 @@ nav .fw{
     transition: 0.5s;
 }
 
-/* facilities css */
+/************ facilities css ************/
 .facilities{
-    width: 80%;
-    margin: auto;
     text-align: center;
     padding-top:80px;
 }
@@ -247,10 +250,8 @@ nav .fw{
     width: 100%;
 }
 
-/* Testimonials css */
+/************ Testimonials css ************/
 .testimonials{
-    width: 80%;
-    margin: auto;
     text-align: center;
     padding-top:80px;
 }
@@ -288,10 +289,8 @@ nav .fw{
     margin-top: 10px;
 }
 
-/* Call to action css */
+/************ Call to action css ************/
 .cta{
-    width: 80%;
-    margin:100px auto;
     text-align: center;
     padding:100px 0;
     border-radius: 10px;
@@ -304,13 +303,15 @@ nav .fw{
     padding: 0;
     margin-bottom: 40px;
 }
+
+/************ Call to action responsive css ************/
 @media (max-width:760px) {
     .cta h1{
         font-size: 1.5rem;
     }
 }
 
-/* Footer css */
+/************ Footer css ************/
 .footer{
     width: 100%;
     text-align: center;
@@ -333,14 +334,14 @@ nav .fw{
     padding: 18px 0;
 }
 
-/* copyright css */
+/************ copyright css ************/
 .copyright{
     background: #fff3f3;
     text-align: center;
     font-weight: 600;
 }
 
-/* about page css */
+/************ about page css ************/
 .sub-header{
     height: 50vh;
     width: 100%;
@@ -352,8 +353,6 @@ nav .fw{
     padding-top: 100px;
 }
 .about-us{
-    width: 80%;
-    margin:auto;
     padding:50px 0 50px ;
 }
 .about-col{
@@ -380,10 +379,8 @@ nav .fw{
     color: #fff;
 }
 
-/* blog-content css */
+/************ blog page css ************/
 .blog-content{
-    width: 80%;
-    margin: auto;
     padding: 60px 0;
 }
 .blog-left{
@@ -430,18 +427,12 @@ nav .fw{
     outline:none;
 }
 
-/* contact us page css */
+/************ contact us page css ************/
 .location{
-    width: 80%;
-    margin: auto;
     padding: 30px 0;
 }
 .location iframe{
     width: 100%;
-}
-.contact-us{
-    width: 80%;
-    margin: auto;
 }
 .contact-col{
     flex-basis: 48%;
